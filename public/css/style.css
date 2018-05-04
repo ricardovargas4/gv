@@ -1,0 +1,143 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  /*font-size: .6rem;  */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 1.5rem;  
+}
+
+.footerteste {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+nav ul a {
+  font-size:1.5rem;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+blockquote{
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #64b5f6;
+}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.notificacao{
+  margin-left:10px;
+}
+
+.notificacaoTitulo{
+  margin-left:10px;
+  color: white;
+}
+
+  .statusProcessos{
+    text-align: left;
+    padding-left: 20%;
+  }
+
+.logo{
+  max-width: 10%;
+  height:auto;
+}
+
+.cad_card{
+  margin: 2rem 0 2rem 0;
+}
+
+a.nav_links:hover{
+  text-decoration: none;
+
+}
+
+.bread_cad{
+  padding-left: 10px;
+}
+
+.swit{
+  padding-left: 10px;
+}
+
+h1{
+  font-size: 2.2rem;
+}
+
+label {
+  font-size: 1.6rem;    
+}
+
+#myChart {
+  height:auto;
+  width:auto;
+  max-width: 82%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+}
+
+.canvas-container{
+  position: relative;
+}
+/*  width: 500px;
+  height: 500px;
+}*/
+
+
+#button {
+  position:relative;
+  left:10%;
+  top:92%;
+  /*visibility: hidden;*/
+}
+
+#nome_usuario, #data {
+  text-align: center;
+
+}
+
+/*
+#chart {
+  height: 440px;
+  width: 100%;
+}
+
+#chart.pointer-on-bars .dxc-series rect {
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: center;
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  
+}*/

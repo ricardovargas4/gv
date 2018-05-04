@@ -1,0 +1,85 @@
+.titulo-comentario{
+    text-align: right;
+}
+.comentario {
+    text-align: justify;
+}
+
+.responder-comentario{
+    text-align: right;
+}
+
+
+.comment{
+    padding-bottom: 10px;
+}
+.box-comentario {
+    width: 800px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.foto-contato {
+    width: 100px;
+    height: 80px;
+    float: left;
+    display: block;
+    background-size: 80px;
+    line-height:60px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.comentario2 {
+    width: 698px;
+    height: auto;
+    background: #e3e3e3;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.comentario2:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border-color: transparent transparent #37474f  transparent;
+    border-width: 8px;
+    border-style: solid;
+    margin-left: -8px;
+    margin-top: 25px;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+    
+}
+
+.foto-contato > div {
+    width: 80px;
+    height: 100%;
+    background: url('site\user.png') no-repeat;
+    background-size: 80px;
+    border-radius: 50%;
+}
+
+.titulo-comentario2 {
+    width: 100%;
+    height: 60px;
+    background: #37474f;
+}
+.tit-coment {
+    line-height:60px;
+    margin-left: 10px;
+}
+.tit-coment-resp {
+    float: right;
+    line-height:60px;
+    margin-right: 10px;
+    clear: both; 
+}
+
+a.tituloCom:hover{
+  text-decoration: none;
+}
+a.tituloCom{
+  color:white;
+}
