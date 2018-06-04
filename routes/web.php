@@ -91,8 +91,8 @@ Route::get('/usuario/altera/{id}','UserController@altera');
 Route::post('/usuario/salvaAlt','UserController@salvaAlt');
 */
 
-Route::get('/relatorios', 'Controller@tempo');
+Route::post('/relatorio/tempo', 'Controller@tempo');
 
 Route::get('/chartjs', 'HomeController@chartjs');
 Route::get('/hello', 'HomeController@hello');
-Route::get('/chartjsData', 'HomeController@chartjsData');
+Route::get('/dados/tempo', 'HomeController@dadosTempos');

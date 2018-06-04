@@ -1,18 +1,15 @@
+
 $(document).ready(function () {
 
-    
-    $(".dropdown-trigger").dropdown();
-    //$('.dropdown-button').dropdown();        
-    /*$('.collapsible').collapsible();*/
     $('.modal').modal();
     $('.modalNotify').modal();
-    /*$('select').material_select();*/
+    $(document).ready(function() {
+        $('.dropdown-button').dropdown({
+            hover: false
+          }
+        );    
+      });
        
-    
-    
-
-       
-    
-    });
+ });
     
   
